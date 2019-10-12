@@ -1,18 +1,17 @@
 <template>
 	<div class="home">
-		<Interval text="Some-title-1"/>
-		<Interval text="Some-title-2"/>
+		<Timeline />
 	</div>
 </template>
 
 <script>
 
-import Interval from '@/components/Interval.vue'
+import Timeline from '@/components/Timeline.vue'
 
 export default {
 	name: 'home',
 	components: {
-		Interval
+		Timeline
 	}
 }
 

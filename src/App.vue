@@ -11,7 +11,20 @@
 
 <style lang="sass">
 
+*
+	box-sizing: border-box
+
+
+html
+	background-color: #eee
+
+html,
+body
+	margin: 0
+	padding: 0
+
 #app
+	
 
 #nav
 	
@@ -19,5 +32,16 @@
 		
 		&.router-link-exact-active
 			font-weight: bold
+
+h2
+	margin-top: 0
+	margin-bottom: 0
+
+select
+	height: 30px
+
+hr
+	margin-top: 1em
+	margin-bottom: 1em
 
 </style>

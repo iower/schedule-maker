@@ -21,7 +21,14 @@ export default {
 
 // ...
 
+.interval + .interval
+	margin-top: -1px
+
 .interval
 	border: 1px solid gray
+	border-radius: 4px
+	padding: 5px
+	height: 30px
+
 
 </style>
